@@ -7,6 +7,7 @@ border: 0px;
 
 #content{
     width: 100%;
+    margin: 0 auto;
 }
 
 .imag{
@@ -32,3 +33,19 @@ border: 0px;
     border-bottom:5px solid #f74e0c;
     display: block;
 }
+
+.cardContainer{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card{
+    width: 45%;
+    height: 150px;
+    background: red;
+    transform: translateY(-50px);
+    display: inline-block;
+    text-align: center;
+    margin-left: 2.5%;
+}
+
